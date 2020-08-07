@@ -1,3 +1,127 @@
-h1{
-color:red;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000000;
+    background-color: #ffffff;
+}
+a {
+    text-decoration: none;
+}
+.button,
+.button-green,
+.button-yellow {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    vertical-align: middle;
+    text-transform: uppercase;
+    background-color: #fb565a;
+    }
+.button-green {
+    background-color: #00ca74;
+}  
+.button-yellow {
+    background-color: #efc84a;
+}     
+.main-header {
+    background-color: #eeeeee;
+}
+.main-navigation {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000000;
+}
+.site-navigation,
+.basket-navigation,
+.feature-list {
+    list-style: none;
+}
+.site-navigation a:hover,
+.site-navigation a:focus,
+.basket-navigation a:hover, 
+.basket-navigation a:focus {
+    background-color: #fb565a;
+}
+.slogan h3 {
+    font-size: 55px;
+    line-height: 55px;
+}
+.feature-item {
+    text-align: left;
+}
+.feature-item h3 {
+  font-size: 24px;
+  line-height: 30px;  
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.small-studio {
+    text-align: left;
+}
+.small-studio h2 {
+    font-size: 45px;
+    line-height: 45px;  
+    font-weight: 500;
+}
+.small-studio h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.figures h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.figures-list {
+    text-align: left;
+    font-size: 16px;
+  line-height: 18px;
+}
+.figures-list span {
+    font-size: 45px;
+  line-height: 10,06px;
+  font-weight: 700;
+}
+.figures-item {
+    list-style: none;  
+}
+.contacts h3 {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700; 
+}
+.nomber,
+.contacts p {
+    font-size: 16px;
+    line-height: 18px;
+}
+.partners-item {
+    list-style: none;
+}
+.maps {
+background-color: rgb(181, 181, 181);
+position: absolute;
+}
+.social-item {
+    list-style: none;
+}
+.friends {
+    text-align: left;
+}
+.friends h2 {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 700; 
+}
+.friends p {
+    font-size: 16px;
+    line-height: 22px;
+}
+.social-item {
+    color: #ffffff;
 }
