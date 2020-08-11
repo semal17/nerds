@@ -113,6 +113,12 @@ a {
 .partners-item {
     list-style: none;
 }
+.partners-item a:hover {
+    opacity: 0;
+}
+.partners-item a:active {
+    opacity: 0.1;
+}
 .maps {
 background-color: rgb(181, 181, 181);
 position: absolute;
