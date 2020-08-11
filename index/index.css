@@ -10,6 +10,7 @@ body {
 }
 a {
     text-decoration: none;
+    color: black;
 }
 .button,
 .button-green,
@@ -19,7 +20,8 @@ a {
     vertical-align: middle;
     text-transform: uppercase;
     background-color: #fb565a;
-    }
+    padding: 20px 40px;    
+}
 .button-green {
     background-color: #00ca74;
 }  
@@ -42,10 +44,17 @@ a {
     list-style: none;
 }
 .site-navigation a:hover,
+.basket-navigation a:hover {
+    color: #fb565a;
+}
+.site-navigation a:active,
+.basket-navigation a:active {
+    color: #a6a6a6;
+}
 .site-navigation a:focus,
-.basket-navigation a:hover, 
 .basket-navigation a:focus {
-    background-color: #fb565a;
+    text-decoration: underline;
+    text-decoration-color: #fb565a;
 }
 .slogan h3 {
     font-size: 55px;
@@ -110,6 +119,10 @@ position: absolute;
 }
 .social-item {
     list-style: none;
+    border-radius: 50%;
+  background-color: #e0e0e0;
+  position: absolute;
+
 }
 .friends {
     text-align: left;
