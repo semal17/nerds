@@ -6,21 +6,22 @@ body {
     line-height: 24px;
     font-weight: 400;
     color: #000000;
-    background-color: #ffffff;
 }
 a {
     text-decoration: none;
     color: black;
 }
-.button,
+.button-red,
 .button-green,
 .button-yellow {
     text-align: center;
     color: rgb(255, 255, 255);
     vertical-align: middle;
     text-transform: uppercase;
-    background-color: #fb565a;
     padding: 20px 40px;    
+}
+.button-red {
+    background-color: #fb565a;
 }
 .button-green {
     background-color: #00ca74;
@@ -28,7 +29,7 @@ a {
 .button-yellow {
     background-color: #efc84a;
 }
-.button:hover {
+.button-red:hover {
     background-color: #e74246;
 }  
 .button-green:hover {
@@ -37,7 +38,7 @@ a {
 .button-yellow:hover {
     background-color: #eab534;
 }
-.button:active {
+.button-red:active {
     background-color: #d7373b;
     color: rgba(255, 255, 255, 0.302);
 }  
@@ -86,6 +87,9 @@ opacity: 0.8;
     text-decoration: underline;
     text-decoration-color: #fb565a;
 }
+.basket-link {
+margin-left: 26px;
+}
 .slogan h3 {
     font-size: 55px;
     line-height: 55px;
@@ -93,6 +97,9 @@ opacity: 0.8;
 .feature-item {
     list-style: none;  
     text-align: left;
+}
+.feature-item img {
+    vertical-align: top;
 }
 .feature-item h3 {
   font-size: 24px;
@@ -143,8 +150,10 @@ opacity: 0.8;
 .partners-item {
     list-style: none;
 }
+
 .partners-item a {
     opacity: 0.2;
+    display: block;
 }
 .partners-item a:hover {
     opacity: 1;
