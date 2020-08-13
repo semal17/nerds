@@ -82,11 +82,6 @@ opacity: 0.8;
 .basket-navigation a:active {
     color: #a6a6a6;
 }
-.site-navigation a:focus,
-.basket-navigation a:focus {
-    text-decoration: underline;
-    text-decoration-color: #fb565a;
-}
 .basket-link {
 margin-left: 26px;
 }
@@ -99,7 +94,7 @@ margin-left: 26px;
     text-align: left;
 }
 .feature-item img {
-    vertical-align: top;
+    display: block;
 }
 .feature-item h3 {
   font-size: 24px;
@@ -195,4 +190,113 @@ position: absolute;
 }
 .social-item {
     color: #ffffff;
+}
+.container {
+    width: 1160px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.main-header {
+   margin-bottom: 80px;
+}
+.main-navigation {
+    display: flex;
+    align-items: center;
+}
+.main-header-logo {
+    width: 160px;
+    height: 65px;
+    margin-top: 49px;
+}
+.main-navigation .container {
+    display: flex;
+    justify-content: space-between;
+}
+.site-navigation {
+    width: 440px;
+    margin-top: 83px;
+    padding: 0;
+}
+.basket-navigation {
+width: 160px;
+margin-top: 83px;
+    padding: 0;
+}
+.slogan {
+   width: 380px;
+   margin-right: 50px;
+}
+.pictures-slogan {
+    width: 698px;
+    height: 413px;
+    
+}
+.slogan-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.features {
+    margin-bottom: 160px;
+}
+.features-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.feature-item {
+    width: 300px;
+}
+.studio-figures {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 125px;
+    padding: 0;
+}
+.small-studio {
+ width: 660px;
+}
+.figures {
+  width: 360px;
+}
+.partners {
+    margin-bottom: 199px;
+}
+.partners-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.partners-item {
+    width: 260px;
+}
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.address {
+    width: 319px;
+    height: 308px;
+}
+.place {
+    width: 231px;
+    height: 190px;
+    margin-right: 325px;
+}
+.main-footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin-top: 69px;
+}
+.social {
+    width: 260px;
+    margin-right: 140px;
+}
+.friends {
+    width: 560px;
 }

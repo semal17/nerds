@@ -10,6 +10,7 @@
     <body>
     <header class="main-header">
         <nav class="main-navigation">
+            <div class="container">
             <a  class="main-header-logo">
             <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип Nerds">
         </a>
@@ -25,15 +26,23 @@
                     <a class="basket-link" href="basket.html">Корзина</a>
                 </li>
             </ul>
+        </div>
         </nav>
-    <div class="slogan">
-        <h1  class="visually-hidden">Nerds</h1>
-        <h3>Долго, дорого, скрупулезно.</h3>
+        <div class="container">
+            <div class="slogan-wrapper">
+        <div class="slogan">
+           <h1  class="visually-hidden">Nerds</h1>
+        <h3>Долго, дорого,<br>
+            скрупулезно.</h3>
         <p>Математически выверенный дизайн<br>
              для вашего сайта или мобильного приложения</p>
              <a class="button-red" href="#">Узнать больше</a>
-             <img src="img/slide1.png" width="698" height="413" alt="Слайд с телефонами">
-    </div>
+             </div>
+             <div class="pictures-slogan">
+                <img src="img/slide1.png" width="698" height="413" alt="Слайд с телефонами">
+            </div>
+            </div>
+            </div>
 </header>
     <main  class="container">
         <section class="features">
@@ -59,6 +68,7 @@
             </li>
         </ul>
     </section>
+    <div class="studio-figures">
             <div class="small-studio">
                 <h2>Мы-маленькая, но гордая<br>
                      дизайн-студия из Краснодара.</h2>
@@ -86,6 +96,7 @@
                           предоплата</li>
                 </ul>
             </div>
+        </div>
             <section class="partners">
                 <h2 class="visually-hidden">Партнеры</h2>
                 <ul class="partners-list">
@@ -112,17 +123,20 @@
                 </ul>
             </section>
             <section class="contacts">
+                <div class="address">
                 <h2 class="visually-hidden">Как нас найти</h2>
                 <h3>NЁrds design studio</h3>
                 <p>191186, Санкт-Петербург,<br>
                 ул. Б. Конюшенная, д.19/8<br>
             <a class="nomber" href="tel:+78122757575">тел. +7 (812) 275-75-75</a></p>
             <a class="button-red" href="#">Напишите нам</a>
+        </div>
             <img class="place" src="img/map-marker.png" width="231" height="190" alt="Место, где мы находимся">
-            <img class="maps" src="img/map.jpg" width="1725" height="808" alt="Карта">
+            <!--<img class="maps" src="img/map.png" width="1725" height="808" alt="Карта">-->
             </section>
         </main>
-            <footer>
+            <footer class="main-footer">
+                <div class="container">
                 <div class="social">
                     <ul class="social-list">
                     <li class="social-item">
@@ -146,6 +160,7 @@
                     <h2>Давайте дружить, это выгодно!</h2>
                     <p>Скидка 10% для друзей из социальных сетей.</p>
                 </div>
+            </div>
             </footer>      
 </body>
 </html>
