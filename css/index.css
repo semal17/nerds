@@ -112,6 +112,8 @@ opacity: 0.8;
 margin-left: 26px;
 }
 .slogan h3 {
+    margin: 0;
+    margin-top: 85px;
     font-size: 55px;
     line-height: 55px;
 }
@@ -123,6 +125,7 @@ margin-left: 26px;
     display: block;
 }
 .feature-item h3 {
+    margin: 0;
   font-size: 24px;
   line-height: 30px;  
   font-weight: 700;
@@ -236,6 +239,11 @@ margin-left: 26px;
     font-size: 16px;
     line-height: 18px;
 }
+.contacts a {
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .partners-item {
     list-style: none;
 }
@@ -253,6 +261,9 @@ margin-left: 26px;
 .maps {
 background-color: rgb(181, 181, 181);
 position: absolute;
+left: 50%;
+width: 100vw;
+transform: translateX(-50%);
 }
 .social {
     width: 260px;
@@ -305,6 +316,13 @@ position: absolute;
 }
 .social-item {
     color: #ffffff;
+}
+.social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
 }
 .container {
     width: 1160px;
@@ -376,6 +394,7 @@ margin-top: 83px;
     display: flex;
     justify-content: space-between;
     margin: 0;
+    
     padding: 0;
     list-style: none;
 }
@@ -477,8 +496,12 @@ margin-top: 83px;
     margin-top: 20px;
 }
 .contacts-margin {
-    margin-top: 50px;
+        margin-top: 50px;
     margin-left: 50px;
+}
+.contacts-margin p {
+    display: flex;
+    flex-direction: column;
 }
 .place {
     z-index: 2;
@@ -505,5 +528,130 @@ margin-top: 83px;
     font-size: 16px;
     line-height: 22px;
     color: #444444;
+}
+/* Всплывающее окно */
+.modal {
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 1780px;
+    margin-left: -480px;
+    
+    
+    width: 760px;
+    
+    box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+    z-index: 5;
+    padding: 72px 100px 84px 100px;
+  }
+  .modal-close {
+    position: absolute;
+    top: 78px;
+    right: 90px;
+    width: 21px;
+    height: 21px;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+.modal-close::before,
+.modal-close::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 2px;
+    width: 27px;
+    height: 3px;
+    background-color: #ffcccd;
+}
+.modal-close::after {
+transform: rotate(-45deg);
+}
+.modal-close::before {
+    transform: rotate(45deg);
+}
+.modal h2 {
+    margin: 0;
+    margin-bottom: 45px;
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 500;
+}
+.modal p {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 36px;
+    
+}
+.login-form input[type="email"],
+.login-form input[type="text"] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 16px 14px;
+    padding-right: 40px;
+     color: #a1a1a1;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    background-color: white;
+    border: 2px solid #d7dcde;
+}
+.login-form  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+}
+.user-name {
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 12px;
+    margin-right: 40px;
+}
+.user-mail {
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 12px;
+}
+.letter {
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 12px;
+}
+.modal .button-red {
+    margin: 0;
+    margin-top: 11px;
+}
+.modal-letter {
+    flex-grow: 2;
+}
+.letter-icon-user {
+    display: inline-block;
+    padding-bottom: 50px;
+}
+.modal-letter {
+    display: flex;
+    flex-direction: column;
+}
 
+.letter-icon-user {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 16px 14px;
+    padding-right: 40px;
+     color: #a1a1a1;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    background-color: white;
+    border: 2px solid #d7dcde;
+    
+    margin-top: 12px;
+}
+.modal .button-red {
+    border: 0;
+    padding: 18px 83px;
 }
