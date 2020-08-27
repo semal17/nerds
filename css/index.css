@@ -532,11 +532,12 @@ margin-top: 83px;
 /* Всплывающее окно */
 .modal {
     background-color: white;
-    position: absolute;
+    position: fixed;
     left: 50%;
-    top: 1780px;
-    margin-left: -480px;
-    
+    top: 50%;
+    /* margin-left: -480px;
+    margin-top: -300px; */
+    transform: translate(-50%, -50%);
     
     width: 760px;
     
@@ -589,6 +590,7 @@ transform: rotate(-45deg);
 .login-form input[type="text"] {
     box-sizing: border-box;
     width: 100%;
+    
     padding: 16px 14px;
     padding-right: 40px;
      color: #a1a1a1;
@@ -601,6 +603,7 @@ transform: rotate(-45deg);
 .login-form  {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
     
     
@@ -635,11 +638,17 @@ transform: rotate(-45deg);
 .modal-letter {
     display: flex;
     flex-direction: column;
+    
 }
 
 .letter-icon-user {
+    
     box-sizing: border-box;
     width: 100%;
+    max-width: 760px;
+    max-height: 114px;
+    min-width: 760px;
+    min-height: 114px;
     padding: 16px 14px;
     padding-right: 40px;
      color: #a1a1a1;
@@ -654,4 +663,16 @@ transform: rotate(-45deg);
 .modal .button-red {
     border: 0;
     padding: 18px 83px;
+}
+.modal-name-mail {
+    display: flex;
+    
+    justify-content: space-between;
+}
+.modal-name,
+.modal-mail {
+    width: 100%;
+}
+.login-form .modal-name {
+    margin-right: 40px;
 }
